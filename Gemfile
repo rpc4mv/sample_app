@@ -6,6 +6,10 @@ gem 'pg', '0.12.2'
 
 group :development, :test do
  gem 'rspec-rails', '2.11.0'
+ gem 'guard-rspec', '1.2.1'
+ gem 'guard-spork', '1.2.0'
+ gem 'childprocess', '0.3.6'
+ gem 'spork', '0.9.2'
 end
 
 
@@ -19,4 +23,6 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'rb-inotify', '0.9'
+  gem 'libnotify', '0.5.9'
 end
