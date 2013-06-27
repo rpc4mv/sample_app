@@ -150,6 +150,15 @@ aside {
   }
 }
 
+#char-count {
+  float: right;
+  font-size: 1.0em;
+  line-height: 1.7em;
+}
+
+.over {
+  color: red;
+}
 .gravatar {
   float: left;
   margin-right: 10px; 
